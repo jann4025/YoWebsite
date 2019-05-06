@@ -328,7 +328,7 @@
     }
 
     #logo2-container {
-        display: block;
+        display: none;
         margin: 0 auto;
         width: 80%;
         /* border-bottom: 2px solid #409042; */
