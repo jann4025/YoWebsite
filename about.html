@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="description" content="YOBRUGERS are made from fantastic Danish ground beef on Belgian butter toasted brioche buns with American cheese, crisp lettuce, slices of tomato and our remarkable magic sauce.">
+
+    <meta name="keywords" content="Events, Burgers, Fries, Pommefritter, Yoburger, Yo Burger, Yo Fries, Yo Dip, Copenhagen, Catering, Burger Truck, YoTruck, Burgers in Copenhagen, Best Burgers, bedste burgers, byens bedste burger, byens bedste, københavn, københavn K, kbh k, grease, juice, juicy, amazing, crisp, veggie, vegetarian, vegetarburger, vegetar, crispy, beef, quality, high quality, økologisk, takeaway, take-away, levering, burger levering, bestil, restaurant, burger joint, street food, casual, Roskilde, Roskilde Festival, Festival Food">
+
+    <title>About - Yoburger</title>
+
+    <!--favicon-->
+    <link href="Images/favicon.png" rel="icon" type="image/x-icon">
+    <link rel="icon" sizes="128x128" href="Images/favicon.icns">
+    <link href="Images/favicon.ico" rel="icon" type="image/vnd.microsoft.icon">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="About Yoburger" />
+    <meta property="og:description" content="YOBRUGERS are made from fantastic Danish ground beef on Belgian butter toasted brioche buns with American cheese, crisp lettuce, slices of tomato and our remarkable magic sauce. It's simply amazing, just try it." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yoburger.dk/about.html" />
+    <meta property="og:image" content="https://yoburger.dk/Images/FBthumb.png" />
+    <meta property="og:locale" content="en_US" />
+
+    <!--Tracking -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122542103-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-122542103-1');
+    </script>
+
+    <script>
+        var trackOutboundLink = function(url) {
+            gtag('event', 'click', {
+                'event_category': 'outbound',
+                'event_label': url,
+                'transport_type': 'beacon',
+                'event_callback': function() {
+                    document.location = url;
+                }
+            });
+        }
+    </script>
+
+
+    <!-- StyleSheet -->
+    <link rel="stylesheet" type="text/css" href="about.css" />
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("first-location");
+            var y = document.getElementById("second-location");
+            var container = document.getElementById("job-navbar");
+            var current = container.getElementsByClassName("job-nav-options active");
+            var noncurrent = container.getElementsByClassName("job-nav-options");
+
+            if (x.style.display === "none") {
+                x.style.display = "block";
+                y.style.display = "none";
+                current[0].className = current[0].className.replace(" active", "");
+                noncurrent[0].className += " active";
+            }
+        }
+
+        function myFunction2() {
+            var y = document.getElementById("first-location");
+            var x = document.getElementById("second-location");
+            var container = document.getElementById("job-navbar");
+            var current = container.getElementsByClassName("active");
+            var noncurrent = container.getElementsByClassName("job-nav-options");
+
+            if (x.style.display === "none") {
+                x.style.display = "block";
+                y.style.display = "none";
+                current[0].className = current[0].className.replace(" active", "");
+                noncurrent[1].className += " active";
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function() {
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#ed1846"
+                    },
+                    "button": {
+                        "background": "#ffeb00",
+                        "text": "#ed1846"
+                    }
+                },
+                "content": {
+                    "href": "https://www.iubenda.com/privacy-policy/8284412/cookie-policy"
+                }
+            })
+        });
+    </script>
+
+
+</head>
+
+<body>
+
+    <div class="mainmain-container">
+
+        <div class="left-container">
+
+            <div id="logo2-container">
+                <a href="index.html"><img id="logo2" src="Images/yologo.svg"></a>
+            </div>
+
+            <div id="navbar-container">
+
+                <ul class="work-tabs">
+                    <li class="nav-options"><a href="ordernow.html">Order Now</a></li>
+                    <li class="nav-options"><a href="menu.html">Menu</a></li>
+                    <!--<li class="nav-options"><a href="Events.html">Events & Catering</a></li>-->
+                    <li class="nav-options"><a href="locations.html">Locations</a></li>
+                    <li class="nav-options"><a href="Events.html">Catering & Events</a></li>
+                    <li class="nav-options"><a href="news.html">News Feed</a></li>
+                    <li class="nav-options-active"><a href="about.html">About</a></li>
+                    <li class="nav-options"><a href="job.html">Apply</a></li>
+                </ul>
+
+            </div>
+        </div>
+
+
+        <div class="right-container">
+
+            <div class="first-location">
+                <h2 class="headerText">Just Try It!</h2>
+            </div>
+
+            <div class="holder">
+                <div id="first-location" style="display:block;">
+
+                    <h4 class="headline">Yo History</h4>
+                    <p>In 2015, the YOBURGER was made and served in our first restaurant on Nørregade. By digging through all the layers of complexity, by deeply understanding the essence of the burger and by getting rid of all the parts that are non-essential we achieved simplicity but with ultimate sophistication in the YOBURGER.</p><br>
+                    <p>We believe in using the right ingredients, prepare them in the right way and serve them with a great experience. Our YOBRUGERS are made from fantastic Danish ground beef on Belgian butter toasted brioche buns with American cheese, crisp lettuce, slices of tomato and our remarkable magic sauce.</p><br>
+                    <p>It’s <i>simply</i> amazing, just try it…</p>
+
+                    <h4 class="headline">The Three ELEMENTS</h4>
+                    <ul class="ThreeElements">
+                        <li>
+                            <h3>Yo Burger</h3>
+                        </li>
+                        <li>
+                            <h3>Yo Fries</h3>
+                        </li>
+                        <li>
+                            <h3>Yo Dip</h3>
+                        </li>
+                        <li>
+                            <h3><a href="menu.html">&rarr; see the whole menu</a></h3>
+                        </li>
+                    </ul>
+
+                    <h4 class="headline">Join the Team</h4>
+                    <p>We are constantly looking for talented people to come join this fantastic journey so don't hesitate to reach out or check out our current job openings.</p>
+                    <ul class="ThreeElements">
+                        <li>
+                            <h3><a href="job.html">Current Openings</a></h3>
+                        </li>
+                        <li>
+                            <h3><a href="mailto:apply@yoburger.dk">Apply Now</a></h3>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div id="second-location" style="display:none;">
+                    <h4 class="headline">WHAT WE STAND FOR</h4>
+                    <p>YOBURGER is based on three value propositions; the right ingredients, made in the right way and served with the right experience. We are motivated to create and deliver great products more than anything else and we value YO Members who can move the needle on quality, execution and spirit. Moreover, in YOBURGER we pay a lot of attention to detail and believe that it is all the subtle differences that ends up meaning everything: from the people we hire and who gets different responsibilities to how the beef is prepared and what cut of meat is used in the burger.</p>
+
+                    <h4 class="headline">WHAT WE OFFER</h4>
+                    <p>We offer you to become part of the YOBURGER team where you will engage in an exciting environment and meet motivated and charming people. The people in our enviroment represents a thrilling culture, that genuinly values great and meaningful personal relationsships as well as excellence and hard work. As for your personal development, YOBURGER puts great effort into developing all of our new employees and you will take on a lot of responsibility from day one where you will learn on the go as you go through our trainee program.</p>
+
+                    <h4 class="headline">CAREER PATH</h4>
+                    <p>YOBURGER is ambitiously pursuing growth and thereby leaves great opportunity for the members of our team to pursue a career path within the organization. As we are constantly scouting for new locations we are simultaneously working towards developing regional- and store managers to administer our current and new operations.</p>
+
+                    <h4 class="headline">WHAT WE ARE LOOKING FOR</h4>
+                    <p>We are searching for people whos personality is a great fit with the YOBURGER enviroment. That means you must be able to think independently, be open minded and enjoy socializing with great people. Moreover, we highly value people with high integrety, strong values and a great drive. If you have experience in the restaurant industry that is a great plus, but not a requirement.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="FooterContent">
+
+            <ul class="footer_menu">
+                <li class="menu-item"><a href="https://www.instagram.com/yoburgerdk/" target="_blank">Instagram</a></li>
+                <li class="menu-item"><a href="https://www.facebook.com/YOBURGERs/" target="_blank">Facebook</a></li>
+                <li class="menu-item"><a href="https://www.iubenda.com/privacy-policy/8284412/cookie-policy" target="_blank">Privacy &amp; Cookie Policy</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+</body></html>

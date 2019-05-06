@@ -1,0 +1,1020 @@
+@media only screen and (max-width: 480px), (max-height: 415px) {
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+    display: block;
+    margin: 0 auto;
+    /* max-width: 1100px; 
+    background-image: url(yoburger-goburger-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;*/
+}
+
+@font-face{
+font-family: myFirstFont;
+src: url('Fonts/ItalianPlateNo2-Bd.otf'),
+     url('Fonts/ItalianPlateNo2-Bd.otf.eot'); /* IE9 */
+}
+
+@font-face{
+font-family: mySecondFont;
+src: url('Fonts/ItalianPlateNo2-BdIt.otf'),
+     url('Fonts/ItalianPlateNo2-BdIt.eot'); /* IE9 */
+}
+
+@font-face{
+font-family: myThirdFont;
+src: url('Fonts/ItalianPlateNo2-Lt.otf'),
+     url('Fonts/ItalianPlateNo2-Lt.otf.eot'); /* IE9 */
+}
+
+@font-face{
+font-family: myFourthFont;
+src: url('Fonts/ItalianPlateNo2-Blk.otf'),
+     url('Fonts/ItalianPlateNo2-Blk.otf.eot'); /* IE9 */
+}
+
+@font-face{
+font-family: myFifthFont;
+src: url('Fonts/ItalianPlateNo2-Rg.otf'),
+     url('Fonts/ItalianPlateNo2-Rg.otf.eot'); /* IE9 */
+}
+
+@font-face{
+font-family: mySixthFont;
+src: url('Fonts/ItalianPlateNo2-BlkIt.otf'),
+     url('Fonts/ItalianPlateNo2-BlkIt.otf.eot'); /* IE9 */
+}
+
+
+#location-container{
+    display:block;
+    margin:0px auto;
+}
+
+.right-container{
+    display: inline-block;
+    margin: -40px auto;
+    margin-left: 24%;
+    /* float: right; */
+    width: 80%;
+    min-width: 510px;
+}
+
+.left-container{
+    display: block;
+    margin: 0px 10px;
+    width: 20%;
+    min-width: 190px;
+}
+
+.covertext-container{
+    display: none;
+    margin: 30px auto;
+    position: absolute;
+    /* top: 265%; */
+    left: 4%;
+}
+
+.main-container{
+        display: block;
+    margin: 20px auto;
+    width: 100%;
+}
+
+
+
+#navbar-container{
+    display: block;
+    margin: 10px auto;
+    /* top: 23%; */
+    center: 0;
+    /* left: 33%; */
+    vertical-align: center;
+    min-height: 280px;
+    width: 80%;
+    min-width: 270px;
+    max-width: 270px;
+}
+
+.work-tabs li{
+    display: block;
+    margin: 20px auto;
+    vertical-align: top;
+    line-height: 2.3;
+    text-align: left;
+    /* padding-left: 20px; */
+    text-transform: uppercase;
+    list-style: none;
+    border: 3px solid #21b9ed;
+    background-color: #ffffffe0;
+}
+
+
+.work-tabs li a{
+    display: block;
+    font-family: 'myFirstFont','Calibri Regular', 'Calibri';
+    padding-left: 15px;
+    color: #ed1846;
+    text-decoration: none;
+    font-size: 15px;
+    -o-transition: .75s;
+    -ms-transition: .75s;
+    -moz-transition: .75s;
+    -webkit-transition: .75s;
+    transition: .75s;
+}
+
+.work-tabs a:hover{
+    display: block;
+    font-family: 'myFirstFont','Calibri Regular', 'Calibri';
+    color: #ed1846;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #ffeb00;
+}
+
+.nav-options-active{
+    background-color: #ffeb00;
+    /*text-decoration: underline;*/
+}
+
+h4{
+    font-size: 60px;
+}
+
+
+.headline{
+    font-family: 'mySecondFont','Calibri Regular', 'Calibri';
+    color: #ed1846;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.restaurants{
+    display: block;
+    margin: 5px auto;
+    overflow: hidden;
+}
+
+.headertext{
+    display: block;
+    /* top: 3%; */
+    margin: 10px auto;
+}
+
+
+
+h1{
+    font-family: 'mySixthFont','Calibri Regular', 'Calibri';
+    color: #ffeb00;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 1%;
+    /* padding-right: 60px; */
+    font-size: 75px;
+    text-align: center;
+}
+
+h2{
+
+    font-family: 'myFirstFont','Calibri Regular', 'Calibri';
+    color: #21b9ec;
+    text-decoration: none;
+    font-size: 75px;
+    text-align: center;
+}
+
+
+
+
+.location{
+    display: block;
+    margin: -100px auto 5px;
+    /* float: left; */
+    width: 100%;
+    max-width: 500px;
+    /* margin-left: 5%; */
+    height: 420px;
+    text-align: center;
+}
+
+.locationleft{
+    display: block;
+    margin: -100px auto 5px;
+    float: left;
+    width: 70%;
+    max-width: 500px;
+    /* margin-left: 5%; */
+    height: 420px;
+    text-align: center;
+}
+
+.locationright{
+    display: block;
+    margin: -100px auto 5px;
+    float: right;
+    width: 70%;
+    max-width: 500px;
+    /* margin-left: 5%; */
+    height: 420px;
+    text-align: center;
+}
+
+.locationleft img{
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+}
+
+.locationright img{
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+}
+
+
+.holder{
+    display: none;
+    margin: 0px auto;
+    width: 48%;
+    vertical-align: top;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    margin: 10px auto 0px;
+    background-color: #ed1846;
+    width: 100%;
+}
+
+.FooterContent{
+display: block;
+clear: both;
+padding: 1em 0;
+color: #999;
+text-align: center;
+}
+
+.footer_menu li{
+    display:block;
+    margin: 5px auto;
+}
+
+.footer_menu li a{
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'myFirstFont'
+}
+
+
+.bottom{
+display: block;
+clear: both;
+padding: 1em 0;
+color: #999;
+}
+
+.bottom p{
+font-family:'Calibri Regular', 'Calibri';
+font-weight: 400;
+font-style: normal;
+font-size:14px;
+color: #FFFFFF;
+text-align: center;
+padding:10px;
+opacity:0.5;
+}
+
+button{
+background-color: #409042;
+border: 1px solid #409042;
+border-radius: 2px;
+display: block;
+margin: 4% auto;
+}
+
+button a{
+    text-decoration:none;
+}
+
+
+
+}
+
+@media only screen and (min-width : 481px) and (max-width:700px) and (min-height: 416px){
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+    display: block;
+    margin: 0 auto;
+    /* max-width: 1100px; 
+    background-image: url(yoburger-goburger-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    line-height: 1;
+}
+
+@font-face{
+font-family: myFirstFont;
+src: url('Fonts/ItalianPlateNo2-Bd.otf'),
+     url('Fonts/ItalianPlateNo2-Bd.otf.eot'); /* IE9 */
+}
+
+@font-face{
+font-family: mySecondFont;
+src: url('Fonts/ItalianPlateNo2-BdIt.otf'),
+     url('Fonts/ItalianPlateNo2-BdIt.eot'); /* IE9 */
+}
+
+@font-face{
+font-family: myThirdFont;
+src: url('Fonts/ItalianPlateNo2-Lt.otf'),
+     url('Fonts/ItalianPlateNo2-Lt.otf.eot'); /* IE9 */
+}
+
+@font-face{
+font-family: myFourthFont;
+src: url('Fonts/ItalianPlateNo2-Blk.otf'),
+     url('Fonts/ItalianPlateNo2-Blk.otf.eot'); /* IE9 */
+}
+
+@font-face{
+font-family: myFifthFont;
+src: url('Fonts/ItalianPlateNo2-Rg.otf'),
+     url('Fonts/ItalianPlateNo2-Rg.otf.eot'); /* IE9 */
+}
+
+@font-face{
+font-family: mySixthFont;
+src: url('Fonts/ItalianPlateNo2-BlkIt.otf'),
+     url('Fonts/ItalianPlateNo2-BlkIt.otf.eot'); /* IE9 */
+}
+
+
+#location-container{
+    display:block;
+    margin:0px auto;
+}
+
+.right-container{
+    display: inline-block;
+    margin: -40px auto;
+    margin-left: 24%;
+    /* float: right; */
+    width: 80%;
+    min-width: 510px;
+}
+
+.left-container{
+    display: block;
+    margin: 0px 10px;
+    width: 20%;
+    min-width: 190px;
+}
+
+.covertext-container{
+    display: none;
+    margin: 30px auto;
+    position: absolute;
+    /* top: 265%; */
+    left: 4%;
+}
+
+.main-container{
+        display: block;
+    margin: 20px auto;
+    width: 100%;
+    min-width: 520px;
+}
+
+
+
+#navbar-container{
+    display: block;
+    margin: 30px auto;
+    /* top: 23%; */
+    center: 0;
+    /* left: 33%; */
+    vertical-align: center;
+    min-height: 280px;
+    width: 33%;
+    min-width: 370px;
+    max-width: 380px;
+}
+
+.work-tabs li{
+    display: block;
+    margin: 20px auto;
+    vertical-align: top;
+    line-height: 2.3;
+    text-align: left;
+    /* padding-left: 20px; */
+    text-transform: uppercase;
+    list-style: none;
+    border: 3px solid #21b9ed;
+    background-color: #ffffffe0;
+}
+
+
+.work-tabs li a{
+    display: block;
+    font-family: 'myFirstFont','Calibri Regular', 'Calibri';
+    padding-left: 15px;
+    color: #ed1846;
+    text-decoration: none;
+    font-size: 20px;
+    -o-transition: .75s;
+    -ms-transition: .75s;
+    -moz-transition: .75s;
+    -webkit-transition: .75s;
+    transition: .75s;
+}
+
+.work-tabs a:hover{
+    display: block;
+    font-family: 'myFirstFont','Calibri Regular', 'Calibri';
+    color: #ed1846;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #ffeb00;
+}
+
+.nav-options-active{
+    background-color: #ffeb00;
+    /*text-decoration: underline;*/
+}
+
+h4{
+    font-size: 60px;
+}
+
+
+.headline{
+    font-family: 'mySecondFont','Calibri Regular', 'Calibri';
+    color: #ed1846;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.restaurants{
+    display: block;
+    margin: 5px auto;
+    overflow: hidden;
+}
+
+.headertext{
+    display: block;
+    /* top: 3%; */
+    margin: 10px auto;
+}
+
+
+
+h1{
+    font-family: 'mySixthFont','Calibri Regular', 'Calibri';
+    color: #ffeb00;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 1%;
+    /* padding-right: 60px; */
+    font-size: 100px;
+    text-align: center;
+}
+
+h2{
+
+    font-family: 'myFirstFont','Calibri Regular', 'Calibri';
+    color: #21b9ec;
+    text-decoration: none;
+    font-size: 75px;
+    text-align: center;
+}
+
+
+.location{
+    display: block;
+    margin: -100px auto 5px;
+    /* float: left; */
+    width: 100%;
+    max-width: 500px;
+    /* margin-left: 5%; */
+    height: 420px;
+    text-align: center;
+}
+
+.locationleft{
+    display: block;
+    margin: -100px auto 5px;
+    float: left;
+    width: 70%;
+    max-width: 500px;
+    /* margin-left: 5%; */
+    height: 420px;
+    text-align: center;
+}
+
+.locationright{
+    display: block;
+    margin: -100px auto 5px;
+    float: right;
+    width: 70%;
+    max-width: 500px;
+    /* margin-left: 5%; */
+    height: 420px;
+    text-align: center;
+}
+
+.locationleft img{
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+}
+
+.locationright img{
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+}
+
+
+.holder{
+    display: none;
+    margin: 0px auto;
+    width: 48%;
+    vertical-align: top;
+}
+
+
+.footer{
+    display:block;
+    bottom: 0;
+    margin: 0px auto;
+    background-color: #ed1846;
+    width: 100%;
+}
+
+.FooterContent{
+display: block;
+clear: both;
+padding: 1em 0;
+color: #999;
+text-align: center;
+}
+
+.footer_menu li{
+    display:block;
+    margin: 5px auto;
+}
+
+.footer_menu li a{
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'myFirstFont'
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    margin: 0px auto;
+    background-color: #ed1846;
+    width: 100%;
+}
+
+.FooterContent{
+display: block;
+clear: both;
+padding: 1em 0;
+color: #999;
+text-align: center;
+}
+
+.footer_menu li{
+    display:inline-block;
+    margin: 0 20px;
+}
+
+.footer_menu li a{
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'myFirstFont'
+}
+
+
+}
+
+@media only screen and (min-width:700px) and (min-height: 416px){
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6,p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    display: block;
+    margin: 0 auto;
+    /* max-width: 1100px; 
+    background-image: url(yoburger-goburger-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    line-height: 1;
+}
+
+@font-face{
+font-family: myFirstFont;
+src: url('Fonts/ItalianPlateNo2-Bd.otf'),
+     url('Fonts/ItalianPlateNo2-Bd.otf.eot'); /* IE9 */
+}
+
+@font-face{
+font-family: mySecondFont;
+src: url('Fonts/ItalianPlateNo2-BdIt.otf'),
+     url('Fonts/ItalianPlateNo2-BdIt.eot'); /* IE9 */
+}
+
+@font-face{
+font-family: myThirdFont;
+src: url('Fonts/ItalianPlateNo2-Lt.otf'),
+     url('Fonts/ItalianPlateNo2-Lt.otf.eot'); /* IE9 */
+}
+
+@font-face{
+font-family: myFourthFont;
+src: url('Fonts/ItalianPlateNo2-Blk.otf'),
+     url('Fonts/ItalianPlateNo2-Blk.otf.eot'); /* IE9 */
+}
+
+@font-face{
+font-family: myFifthFont;
+src: url('Fonts/ItalianPlateNo2-Rg.otf'),
+     url('Fonts/ItalianPlateNo2-Rg.otf.eot'); /* IE9 */
+}
+
+@font-face{
+font-family: mySixthFont;
+src: url('Fonts/ItalianPlateNo2-BlkIt.otf'),
+     url('Fonts/ItalianPlateNo2-BlkIt.otf.eot'); /* IE9 */
+}
+
+
+#location-container{
+    display:block;
+    margin:0px auto;
+}
+
+.right-container{
+    display: inline-block;
+    margin: -40px auto;
+    margin-left: 24%;
+    /* float: right; */
+    width: 80%;
+    min-width: 510px;
+}
+
+.left-container{
+    display: block;
+    margin: 0px 10px;
+    width: 20%;
+    min-width: 190px;
+}
+
+.covertext-container{
+    display: none;
+    margin: 30px auto;
+    position: absolute;
+    /* top: 265%; */
+    left: 4%;
+}
+
+.main-container{
+        display: block;
+    margin: 20px auto;
+    min-width: 520px;
+    width:100%;
+}
+
+
+
+#navbar-container{
+    position: absolute;
+    top: 23%;
+    center: 0;
+    left: 33%;
+    vertical-align: center;
+    min-height: 280px;
+    width: 33%;
+    min-width: 370px;
+    max-width: 380px;
+}
+
+.work-tabs li{
+    display: block;
+    margin: 20px auto;
+    vertical-align: top;
+    line-height: 2.3;
+    text-align: left;
+    /* padding-left: 20px; */
+    text-transform: uppercase;
+    list-style: none;
+    border: 3px solid #21b9ed;
+    background-color: #ffffffe0;
+}
+
+
+.work-tabs li a{
+    display: block;
+    font-family: 'myFirstFont','Calibri Regular', 'Calibri';
+    padding-left: 15px;
+    color: #ed1846;
+    text-decoration: none;
+    font-size: 20px;
+    -o-transition: .75s;
+    -ms-transition: .75s;
+    -moz-transition: .75s;
+    -webkit-transition: .75s;
+    transition: .75s;
+}
+
+.work-tabs a:hover{
+    display: block;
+    font-family: 'myFirstFont','Calibri Regular', 'Calibri';
+    color: #ed1846;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #ffeb00;
+}
+
+.nav-options-active{
+    background-color: #ffeb00;
+    /*text-decoration: underline;*/
+}
+
+h4{
+    font-size: 60px;
+}
+
+
+.headline{
+    font-family: 'mySecondFont','Calibri Regular', 'Calibri';
+    color: #ed1846;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.restaurants{
+    display: block;
+    margin: 5px auto;
+    overflow: hidden;
+    width:80%;
+}
+
+.headertext{
+    position: absolute;
+    top: 3%;
+    left: 32%;
+}
+
+
+
+h1{
+    font-family: 'mySixthFont','Calibri Regular', 'Calibri';
+    color: #ffeb00;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 1%;
+    /* padding-right: 60px; */
+    font-size: 100px;
+    text-align: center;
+}
+
+h2{
+
+    font-family: 'myFirstFont','Calibri Regular', 'Calibri';
+    color: #21b9ec;
+    text-decoration: none;
+    font-size: 75px;
+    text-align: center;
+}
+
+
+
+
+.location{
+    display: block;
+    margin: -100px auto 5px;
+    /* float: left; */
+    width: 100%;
+    max-width: 500px;
+    /* margin-left: 5%; */
+    height: 420px;
+    text-align: center;
+}
+
+.locationleft{
+    display: block;
+    margin: -100px auto 5px;
+    float: left;
+    width: 70%;
+    max-width: 500px;
+    /* margin-left: 5%; */
+    height: 420px;
+    text-align: center;
+}
+
+.locationright{
+    display: block;
+    margin: -100px auto 5px;
+    float: right;
+    width: 70%;
+    max-width: 500px;
+    /* margin-left: 5%; */
+    height: 420px;
+    text-align: center;
+}
+
+.locationleft img{
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+}
+
+.locationright img{
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+}
+
+
+.holder{
+    display: inline-block;
+    margin: 0px auto;
+    width: 48%;
+    vertical-align: top;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    margin: 40px auto 0px;
+    background-color: #ed1846;
+    width: 100%;
+}
+
+
+.FooterContent{
+display: block;
+clear: both;
+padding: 1em 0;
+color: #999;
+text-align: center;
+}
+
+.footer_menu li{
+    display:inline-block;
+    margin: 0 20px;
+}
+
+.footer_menu li a{
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'myFirstFont'
+}
+
+
+}

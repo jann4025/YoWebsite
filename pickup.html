@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<title>Pick Up - Yoburger</title>
+
+<meta name="description" content="Show me the way to burger heaven. Order food from Illum Østergade, Nørregade, Østerbrogade and Gothersgade.">
+
+<meta name="keywords" content="Nørregade, Gothersgade, Østerbrogade, Illum, telefon, telefon nr., phone, nummer, call, ring, adresse, address, Events, Burgers, Fries, Pommefritter, Yoburger, Yo Burger, Yo Fries, Yo Dip, Copenhagen, Catering, Burger Truck, YoTruck, Burgers in Copenhagen, Best Burgers, bedste burgers, byens bedste burger, byens bedste, københavn, københavn K, kbh k, grease, juice, juicy, amazing, crisp, veggie, vegetarian, vegetarburger, vegetar, crispy, beef, quality, high quality, økologisk, takeaway, take-away, levering, burger levering, bestil, restaurant, burger joint, street food, casual, Roskilde, Roskilde Festival, Festival Food">
+
+<!--favicon-->
+<link href="Images/favicon.png" rel="icon" type="image/x-icon">
+<link rel="icon" sizes="128x128" href="Images/favicon.icns">
+<link href="Images/favicon.ico" rel="icon" type="image/vnd.microsoft.icon">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta property="og:title" content="Yoburger Order Now" />
+<meta property="og:description" content="YOBRUGERS are made from fantastic Danish ground beef on Belgian butter toasted brioche buns with American cheese, crisp lettuce, slices of tomato and our remarkable magic sauce. It's simply amazing, just try it."/>
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://yoburger.dk/ordernow.html" />
+<meta property="og:image" content="https://yoburger.dk/Images/FBthumb.png"/>
+<meta property="og:locale" content="en_US" />
+
+<!--Tracking -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122542103-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122542103-1');
+</script>
+
+<script>
+var trackOutboundLink = function(url) {
+  gtag('event', 'click', {
+    'event_category': 'outbound',
+    'event_label': url,
+    'transport_type': 'beacon',
+    'event_callback': function(){document.location = url;}
+  });
+}
+</script>
+
+<!-- StyleSheet -->
+<link rel="stylesheet" type="text/css" href="pickup.css"/>
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#ed1846"
+    },
+    "button": {
+      "background": "#ffeb00",
+      "text": "#ed1846"
+    }
+  },
+  "content": {
+    "href": "https://www.iubenda.com/privacy-policy/8284412/cookie-policy"
+  }
+})});
+</script>
+
+</head>
+
+<body>
+
+<div class="main-container">			
+
+	<div class="restaurants">
+
+		<div class="holder">
+			<div class="locationleft">
+				<img src="Images/merc.jpg" class="img_news"/>
+			</div>
+			<div class="location">
+			</div>
+			
+		</div>
+
+		<div class="holder">
+
+			<div class="location">
+			</div>
+			<div class="locationright">
+				<img src="Images/fourguys.jpg" class="img_news"/>
+			</div>
+
+		</div> 
+		<div class="headertext">
+			<h1>Locations</h1>
+		</div>
+
+		
+		<div id="navbar-container">
+			<ul class="work-tabs">
+				<li class="nav-options"><a href="https://login.onlinepos.dk/taw_v3/11616/" onclick="trackOutboundLink('https://login.onlinepos.dk/taw_v3/11616/'); return false;" >[Illum] Østergade 52, 1100 Kbh K</li>
+				<li class="nav-options"><a href="https://login.onlinepos.dk/taw_v3/10386/">Gothersgade 27, 1123 Kbh K</a></li>
+				<li class="nav-options"><a href="https://login.onlinepos.dk/taw_v3/10746/">Østerbrogade 64, 2100 Kbh Ø</a></li>
+				<li class="nav-options"><a href="https://login.onlinepos.dk/taw_v3/10633/">Nørregade 2, 1165 Kbh K</a></li>
+			</ul>
+		</div>	
+	</div>
+
+</div>
+
+	<div class="footer">
+		<div class="FooterContent">
+
+			<ul class="footer_menu">
+				<li class="menu-item"><a href="https://www.instagram.com/yoburgerdk/" target="_blank">Instagram</a></li>
+				<li class="menu-item"><a href="https://www.facebook.com/YOBURGERs/" target="_blank">Facebook</a></li>
+				<li class="menu-item"><a href="https://www.iubenda.com/privacy-policy/8284412/cookie-policy" target="_blank">Privacy &amp; Cookie Policy</a></li>
+			</ul>
+		</div>
+	</div>
+
+</body>
+
+
+</html>

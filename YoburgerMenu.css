@@ -1,0 +1,1526 @@
+@media only screen and (max-width: 480px), (max-height: 415px) {
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+    display: block;
+    margin: 0 auto;
+    /* max-width: 1100px; 
+    background-image: url(yoburger-goburger-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    line-height: 1;
+}
+
+@font-face{
+font-family: myFirstFont;
+src: url('Fonts/ItalianPlateNo2-Bd.otf'),
+     url('Fonts/ItalianPlateNo2-Bd.otf.eot'); /* IE9 */
+}
+
+@font-face{
+font-family: mySecondFont;
+src: url('Fonts/ItalianPlateNo2-BdIt.otf'),
+     url('Fonts/ItalianPlateNo2-BdIt.eot'); /* IE9 */
+}
+
+.mainmain-container{
+    display:block;
+    margin:0px auto;
+    width:100%;
+}
+
+.right-container{
+    display: block;
+    /* margin: -40px auto; */
+    /* float: right; */
+    width: 100%;
+    min-width: 320px;
+}
+
+.left-container{
+    display: block;
+    margin: 0px auto;
+    /* float: left; */
+    width: 100%;
+    min-width: 190px;
+    /* background-color: red; */
+    /* min-height: 1310px; */
+    height: 350px;
+}
+
+#logo2{
+        display: block;
+    position: fixed;
+    margin: 25px auto;
+    width: 12%;
+    max-width: 120px;
+    /* height: 40%; */
+    min-width: 124px;
+    float: left;
+    padding-left: 2%;
+
+}
+
+
+#coverphoto{
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.coverphoto-container{
+      display: block;
+    margin: 0px auto;
+    background-image: url(Images/Menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* transform: matrix(1, 0, 0, 1, 0, 0); */
+    /* opacity: 1; */
+    /* height: 280px; */
+    min-height: 545px;
+    width: 100%;
+    z-index: 100;
+}
+
+.coverphoto-container2{
+      display: block;
+    margin: 0px auto;
+    background-image: url(Images/MenuDel2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* transform: matrix(1, 0, 0, 1, 0, 0); */
+    /* opacity: 1; */
+    /* height: 280px; */
+    min-height: 545px;
+    width: 100%;
+    z-index: 100;
+}
+
+
+.covertext-container{
+    display: none;
+    margin: 30px auto;
+    position: absolute;
+    /* top: 265%; */
+    left: 4%;
+}
+
+.main-container{
+    display: block;
+    margin: 50px auto 0px;
+    width: 100%;
+    min-width: 320px;
+    overflow:hidden;
+}
+
+#top-container{
+     display: block;
+    margin: 0px auto;
+    position: fixed;
+    /* padding-top: 20px; */
+    margin-left: -100px;
+    width: 100%;
+    min-width: 4000px;
+    /* max-width: 1000px; */
+    background: url(Images/forside.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    /* border-bottom: 6px solid #409042; */
+    z-index: 1000;
+    /* border: 1px solid red; */
+    height: 100px;
+}
+
+#header-container{
+display: block;
+margin: 0 auto;
+width: 100%;
+min-width:700px; /*Før 795px*/
+max-width:1000px;
+opacity: 1;
+background-color:  #ffffff;
+-o-box-shadow: 0 10px 9px rgba(0, 0, 0, 0.5);
+-webkit-box-shadow: 0 10px 9px rgba(0, 0, 0, 0.5);
+-moz-box-shadow: 0 10px 9px rgba(0, 0, 0, 0.5);
+box-shadow: 0 10px 9px rgba(0, 0, 0, 0.5);
+z-index: 1;
+}
+
+#header-container p{
+    font-family:'Calibri Italic', 'Calibri';
+    font-style: italic;
+    font-size: 16px;
+    color: #03406C;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom:15px;
+}
+
+#logo-container{
+    display: inline-block;
+    margin: 0 auto;
+    /* width: 50%; */
+    /* border-bottom: 2px solid #409042; */
+    z-index: 3;
+}
+
+
+#logo{
+        display: block;
+    position: fixed;
+    margin: 25px auto;
+    width: 12%;
+    /* height: 40%; */
+    min-width: 124px;
+    float: left;
+    padding-left: 40px;
+
+}
+
+
+#logo2-container{
+    display: block;
+    margin: 0 auto;
+    /* width: 50%; */
+    /* border-bottom: 2px solid #409042; */
+    z-index: 3;
+}
+
+
+#logo2{
+        display: none;
+    position: fixed;
+    margin: 25px auto;
+    width: 12%;
+    max-width: 120px;
+    /* height: 40%; */
+    min-width: 124px;
+    float: left;
+    padding-left: 2%;
+}
+
+#text-box{
+display: block;
+margin: 6% 55% 0px 5%;
+background: linear-gradient(270deg, #040B0F 0%, #13507c 100%);
+background: -webkit-linear-gradient(270deg, #040B0F 0%, #13507c 100%);
+background: -moz-linear-gradient(270deg, #040B0F 0%, #13507c 100%);
+background: -o-linear-gradient(270deg, #040B0F 0%, #13507c 100%);
+}
+
+#text-box p{
+font-family:'Calibri Regular', 'Calibri';
+font-weight: 400;
+text-transform: uppercase;
+font-size: 18px;
+color: #FFFFFF;
+text-align: center;
+line-height: 25px;
+padding: 26px;
+padding-bottom: 0px;
+}
+
+#second-logo{
+display: block;
+margin: 0 auto;
+width: 80%;
+padding: 35px;
+}
+
+#about-container{
+    display:block;
+    margin:3px auto;
+    background: -webkit-linear-gradient(10deg, #DFE0E0 0%, #FFFFFF 100%);
+    background:-o-linear-gradient(10deg, #DFE0E0 0%, #FFFFFF 100%);
+    background:-moz-linear-gradient(10deg, #DFE0E0 0%, #FFFFFF 100%);
+    background:linear-gradient(10deg, #DFE0E0 0%, #FFFFFF 100%);
+    -webkit-box-shadow: 0 3px 2px #777;
+    -moz-box-shadow: 0 3px 2px #777;
+    box-shadow: 0 3px 2px #777;
+    padding-top:20px;
+    min-height: 390px;
+    width:100%;
+    min-width:700px; /*Før 822px*/
+    max-width:1000px;
+}
+
+#news_container{
+    display: block;
+    margin: 2% auto;
+    margin-bottom: 5%;
+    padding: 1%;
+    width: 88%;
+    background-color: #03406C;
+    text-align: center;
+
+}
+
+#navbar-container{
+    display: block;
+    /* position: fixed; */
+    /* float: left; */
+    margin: 10px auto;
+    min-height: 280px;
+    /* background-color: white; */
+    width: 60%;
+    min-width: 170px;
+}
+
+.work-tabs{
+   /* padding-left: 10px;*/
+}
+
+.work-tabs li{
+        display: block;
+    margin: 5px auto;
+    vertical-align: top;
+    line-height: 2.3;
+    text-align: center;
+    text-transform: uppercase;
+    list-style: none;
+    border: 3px solid #21b9ed;
+    /*background-color: #ffffff96;*/
+}
+
+
+.work-tabs li a{
+        display: block;
+    font-family: 'myFirstFont','Calibri Regular', 'Calibri';
+    color: #ed1846;
+    text-decoration: none;
+    font-size: 20px;
+        -o-transition:.75s;
+  -ms-transition:.75s;
+  -moz-transition:.75s;
+  -webkit-transition:.75s;
+  /* ...and now for the proper property */
+  transition:.75s;
+}
+
+
+.work-tabs a:hover{
+    display: block;
+    font-family: 'myFirstFont','Calibri Regular', 'Calibri';
+    color: #ed1846;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #ffeb00;
+}
+
+.nav-options-active{
+    background-color: #ffeb00;
+    /*text-decoration: underline;*/
+}
+
+
+.tab_content{
+    display:block;
+    margin:0px 50px;
+    padding-top:10px;
+    padding-bottom:15px;
+}
+
+.tab_content p{
+    padding-top:10px;
+}
+
+.tab_content a{
+    font-family:'Calibri Bold', 'Calibri';
+    font-weight: 700;
+    font-size: 14px;
+    font-style: normal;
+    color: #03406C;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+h1{
+font-weight: 700;
+    font-size: 100px;
+    color: #00c0f2;
+    font-family: 'mySecondFont', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+h2{
+    font-family:'Calibri Regular', 'Calibri';
+font-size: 14px;
+color: #03406C;
+padding-left:27px;
+line-height:19px;
+text-align: justify;
+}
+
+
+h3{
+font-family:'Calibri Bold', 'Calibri';
+font-size: 20px;
+color: #03406c;
+text-align: center;
+line-height: 40px;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+h4{
+  font-family: 'Calibri Regular', 'Calibri';
+  font-size: 18px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding: 5px;
+  font-weight: 300;
+}
+
+h5{
+    font-family:'Calibri Bold', 'Calibri';
+    font-weight: 700;
+    font-size: 14px;
+    font-style: normal;
+    color: #03406C;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+h6{
+    font-family: 'Calibri Bold', 'Calibri';
+    font-weight: 500;
+    margin-top: -22px;
+    font-size: 24px;
+    font-style: normal;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+
+#info-container {
+display: inline-block;
+margin: 0 auto;
+width: 56%;
+float: left;
+margin-right: 45px;
+}
+
+
+.footer{
+    display: block;
+    bottom: 0;
+    margin: 0px auto;
+    background-color: #ed1846;
+    width: 100%;
+}
+
+.FooterContent{
+display: block;
+clear: both;
+padding: 1em 0;
+color: #999;
+text-align: center;
+}
+
+.footer_menu li{
+    display: block;
+    margin: 5px auto;
+}
+
+.footer_menu li a{
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'myFirstFont'
+}
+
+.bottom{
+display: block;
+clear: both;
+padding: 1em 0;
+color: #999;
+}
+
+.bottom p{
+font-family:'Calibri Regular', 'Calibri';
+font-weight: 400;
+font-style: normal;
+font-size:14px;
+color: #FFFFFF;
+text-align: center;
+padding:10px;
+opacity:0.5;
+}
+
+button{
+background-color: #409042;
+border: 1px solid #409042;
+border-radius: 2px;
+display: block;
+margin: 4% auto;
+}
+
+
+button a{
+    text-decoration:none;
+}
+
+
+}
+
+@media only screen and (min-width : 481px) and (max-width:700px) and (min-height: 416px){
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+    display: block;
+    margin: 0 auto;
+    /* max-width: 1100px; 
+    background-image: url(yoburger-goburger-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    line-height: 1;
+}
+
+@font-face{
+font-family: myFirstFont;
+src: url('Fonts/ItalianPlateNo2-Bd.otf'),
+     url('Fonts/ItalianPlateNo2-Bd.otf.eot'); /* IE9 */
+}
+
+@font-face{
+font-family: mySecondFont;
+src: url('Fonts/ItalianPlateNo2-BdIt.otf'),
+     url('Fonts/ItalianPlateNo2-BdIt.eot'); /* IE9 */
+}
+
+
+.mainmain-container{
+    display:block;
+    margin:0px auto;
+    width:100%;
+}
+
+.right-container{
+    display: block;
+    /* margin: -40px auto; */
+    /* float: right; */
+    width: 100%;
+    min-width: 481px;
+}
+
+.left-container{
+    display: block;
+    margin: 0px auto;
+    /* float: left; */
+    width: 100%;
+    min-width: 190px;
+    /* background-color: red; */
+    /* min-height: 1310px; */
+    height: 350px;
+}
+
+#logo2{
+        display: block;
+    position: fixed;
+    margin: 25px auto;
+    width: 12%;
+    max-width: 120px;
+    /* height: 40%; */
+    min-width: 124px;
+    float: left;
+    padding-left: 2%;
+
+}
+
+
+#coverphoto{
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.coverphoto-container{
+      display: block;
+    margin: 0px auto;
+    background-image: url(Images/Menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* transform: matrix(1, 0, 0, 1, 0, 0); */
+    /* opacity: 1; */
+    /* height: 280px; */
+    min-height: 545px;
+    width: 100%;
+    z-index: 100;
+}
+
+
+.coverphoto-container2{
+      display: block;
+    margin: 0px auto;
+    background-image: url(Images/MenuDel2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* transform: matrix(1, 0, 0, 1, 0, 0); */
+    /* opacity: 1; */
+    /* height: 280px; */
+    min-height: 545px;
+    width: 100%;
+    z-index: 100;
+}
+
+.covertext-container{
+    display: none;
+    margin: 30px auto;
+    position: absolute;
+    /* top: 265%; */
+    left: 4%;
+}
+
+.main-container{
+    display: block;
+    margin: 50px auto 0px;
+    width: 100%;
+    min-width: 481px;
+    overflow:hidden;
+}
+
+#top-container{
+     display: block;
+    margin: 0px auto;
+    position: fixed;
+    /* padding-top: 20px; */
+    margin-left: -100px;
+    width: 100%;
+    min-width: 4000px;
+    /* max-width: 1000px; */
+    background: url(Images/forside.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    /* border-bottom: 6px solid #409042; */
+    z-index: 1000;
+    /* border: 1px solid red; */
+    height: 100px;
+}
+
+#header-container{
+display: block;
+margin: 0 auto;
+width: 100%;
+min-width:700px; /*Før 795px*/
+max-width:1000px;
+opacity: 1;
+background-color:  #ffffff;
+-o-box-shadow: 0 10px 9px rgba(0, 0, 0, 0.5);
+-webkit-box-shadow: 0 10px 9px rgba(0, 0, 0, 0.5);
+-moz-box-shadow: 0 10px 9px rgba(0, 0, 0, 0.5);
+box-shadow: 0 10px 9px rgba(0, 0, 0, 0.5);
+z-index: 1;
+}
+
+#header-container p{
+    font-family:'Calibri Italic', 'Calibri';
+    font-style: italic;
+    font-size: 16px;
+    color: #03406C;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom:15px;
+}
+
+#logo-container{
+    display: inline-block;
+    margin: 0 auto;
+    /* width: 50%; */
+    /* border-bottom: 2px solid #409042; */
+    z-index: 3;
+}
+
+
+#logo{
+        display: block;
+    position: fixed;
+    margin: 25px auto;
+    width: 12%;
+    /* height: 40%; */
+    min-width: 124px;
+    float: left;
+    padding-left: 40px;
+
+}
+
+
+#logo2-container{
+    display: block;
+    margin: 0 auto;
+    /* width: 50%; */
+    /* border-bottom: 2px solid #409042; */
+    z-index: 3;
+}
+
+
+#logo2{
+        display: none;
+    position: fixed;
+    margin: 25px auto;
+    width: 12%;
+    max-width: 120px;
+    /* height: 40%; */
+    min-width: 124px;
+    float: left;
+    padding-left: 2%;
+}
+
+#text-box{
+display: block;
+margin: 6% 55% 0px 5%;
+background: linear-gradient(270deg, #040B0F 0%, #13507c 100%);
+background: -webkit-linear-gradient(270deg, #040B0F 0%, #13507c 100%);
+background: -moz-linear-gradient(270deg, #040B0F 0%, #13507c 100%);
+background: -o-linear-gradient(270deg, #040B0F 0%, #13507c 100%);
+}
+
+#text-box p{
+font-family:'Calibri Regular', 'Calibri';
+font-weight: 400;
+text-transform: uppercase;
+font-size: 18px;
+color: #FFFFFF;
+text-align: center;
+line-height: 25px;
+padding: 26px;
+padding-bottom: 0px;
+}
+
+#second-logo{
+display: block;
+margin: 0 auto;
+width: 80%;
+padding: 35px;
+}
+
+#about-container{
+    display:block;
+    margin:3px auto;
+    background: -webkit-linear-gradient(10deg, #DFE0E0 0%, #FFFFFF 100%);
+    background:-o-linear-gradient(10deg, #DFE0E0 0%, #FFFFFF 100%);
+    background:-moz-linear-gradient(10deg, #DFE0E0 0%, #FFFFFF 100%);
+    background:linear-gradient(10deg, #DFE0E0 0%, #FFFFFF 100%);
+    -webkit-box-shadow: 0 3px 2px #777;
+    -moz-box-shadow: 0 3px 2px #777;
+    box-shadow: 0 3px 2px #777;
+    padding-top:20px;
+    min-height: 390px;
+    width:100%;
+    min-width:700px; /*Før 822px*/
+    max-width:1000px;
+}
+
+
+#navbar-container{
+    display: block;
+    /* position: fixed; */
+    /* float: left; */
+    margin: 10px auto;
+    min-height: 280px;
+    /* background-color: white; */
+    width: 80%;
+    min-width: 170px;
+}
+
+.work-tabs{
+    padding-left: 10px;
+}
+
+.work-tabs li{
+        display: block;
+    margin: 5px auto;
+    vertical-align: top;
+    line-height: 2.3;
+    text-align: center;
+    text-transform: uppercase;
+    list-style: none;
+    border: 3px solid #21b9ed;
+    /*background-color: #ffffff96;*/
+}
+
+
+.work-tabs li a{
+        display: block;
+    font-family: 'myFirstFont','Calibri Regular', 'Calibri';
+    color: #ed1846;
+    text-decoration: none;
+    font-size: 20px;
+        -o-transition:.75s;
+  -ms-transition:.75s;
+  -moz-transition:.75s;
+  -webkit-transition:.75s;
+  /* ...and now for the proper property */
+  transition:.75s;
+}
+
+
+.work-tabs a:hover{
+    display: block;
+    font-family: 'myFirstFont','Calibri Regular', 'Calibri';
+    color: #ed1846;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #ffeb00;
+}
+
+.nav-options-active{
+    background-color: #ffeb00;
+    /*text-decoration: underline;*/
+}
+
+
+.tab_content{
+    display:block;
+    margin:0px 50px;
+    padding-top:10px;
+    padding-bottom:15px;
+}
+
+.tab_content p{
+    padding-top:10px;
+}
+
+.tab_content a{
+    font-family:'Calibri Bold', 'Calibri';
+    font-weight: 700;
+    font-size: 14px;
+    font-style: normal;
+    color: #03406C;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+h1{
+font-weight: 700;
+    font-size: 100px;
+    color: #00c0f2;
+    font-family: 'mySecondFont', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+h2{
+    font-family:'Calibri Regular', 'Calibri';
+font-size: 14px;
+color: #03406C;
+padding-left:27px;
+line-height:19px;
+text-align: justify;
+}
+
+
+h3{
+font-family:'Calibri Bold', 'Calibri';
+font-size: 20px;
+color: #03406c;
+text-align: center;
+line-height: 40px;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+h4{
+  font-family: 'Calibri Regular', 'Calibri';
+  font-size: 18px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding: 5px;
+  font-weight: 300;
+}
+
+h5{
+    font-family:'Calibri Bold', 'Calibri';
+    font-weight: 700;
+    font-size: 14px;
+    font-style: normal;
+    color: #03406C;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+h6{
+    font-family: 'Calibri Bold', 'Calibri';
+    font-weight: 500;
+    margin-top: -22px;
+    font-size: 24px;
+    font-style: normal;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+#info-container {
+display: inline-block;
+margin: 0 auto;
+width: 56%;
+float: left;
+margin-right: 45px;
+}
+
+
+.footer{
+    display: block;
+    bottom: 0;
+    margin: 0px auto;
+    background-color: #ed1846;
+    width: 100%;
+}
+
+.FooterContent{
+display: block;
+clear: both;
+padding: 1em 0;
+color: #999;
+text-align: center;
+}
+
+.footer_menu li{
+    display:inline-block;
+    margin: 0 20px;
+}
+
+.footer_menu li a{
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'myFirstFont'
+}
+
+.bottom{
+display: block;
+clear: both;
+padding: 1em 0;
+color: #999;
+}
+
+.bottom p{
+font-family:'Calibri Regular', 'Calibri';
+font-weight: 400;
+font-style: normal;
+font-size:14px;
+color: #FFFFFF;
+text-align: center;
+padding:10px;
+opacity:0.5;
+}
+
+button{
+background-color: #409042;
+border: 1px solid #409042;
+border-radius: 2px;
+display: block;
+margin: 4% auto;
+}
+
+button a{
+    text-decoration:none;
+}
+
+
+}
+
+@media only screen and (min-width:700px) and (min-height: 416px){
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6,p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    display: block;
+    margin: 0 auto;
+    line-height: 1;
+}
+
+@font-face{
+font-family: myFirstFont;
+src: url('Fonts/ItalianPlateNo2-Bd.otf'),
+     url('Fonts/ItalianPlateNo2-Bd.otf.eot'); /* IE9 */
+}
+
+@font-face{
+font-family: mySecondFont;
+src: url('Fonts/ItalianPlateNo2-BdIt.otf'),
+     url('Fonts/ItalianPlateNo2-BdIt.eot'); /* IE9 */
+}
+
+
+.mainmain-container{
+	display:block;
+	margin:0px auto;
+	width:100%;
+}
+
+.right-container{
+    display: inline-block;
+    margin: -40px auto;
+    margin-left: 17%;
+    /* float: right; */
+    width: 80%;
+    min-width: 510px;
+}
+
+.left-container{
+	
+    display: inline-block;
+    margin: 0px 10px;
+    /* float: left; */
+    width: 20%;
+    min-width: 190px;
+    /* background-color: red; */
+    /* min-height: 1310px; */
+    height: 100%;
+}
+
+#logo2{
+	    display: block;
+    position: fixed;
+    margin: 25px auto;
+    width: 12%;
+    max-width: 120px;
+    /* height: 40%; */
+    min-width: 124px;
+    float: left;
+    padding-left: 2%;
+
+}
+
+
+#coverphoto{
+	display: block;
+    margin: 0px auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.coverphoto-container{
+      display: block;
+    margin: 0px auto;
+    background-image: url(Images/Menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* transform: matrix(1, 0, 0, 1, 0, 0); */
+    /* opacity: 1; */
+    /* height: 280px; */
+    min-height: 545px;
+    width: 100%;
+    z-index: 100;
+}
+
+
+
+.coverphoto-container2{
+      display: block;
+    margin: 0px auto;
+    background-image: url(Images/MenuDel2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* transform: matrix(1, 0, 0, 1, 0, 0); */
+    /* opacity: 1; */
+    /* height: 280px; */
+    min-height: 545px;
+    width: 100%;
+    z-index: 100;
+}
+
+
+.covertext-container{
+    display: none;
+    margin: 30px auto;
+    position: absolute;
+    /* top: 265%; */
+    left: 4%;
+}
+
+.main-container{
+    display: block;
+    margin: 20px auto 0px;
+    width: 100%;
+    min-width: 520px;
+    overflow: hidden;
+}
+
+#top-container{
+     display: block;
+    margin: 0px auto;
+    position: fixed;
+    /* padding-top: 20px; */
+    margin-left: -100px;
+    width: 100%;
+    min-width: 4000px;
+    /* max-width: 1000px; */
+    background: url(Images/forside.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    /* border-bottom: 6px solid #409042; */
+    z-index: 1000;
+    /* border: 1px solid red; */
+    height: 100px;
+}
+
+#header-container{
+display: block;
+margin: 0 auto;
+width: 100%;
+min-width:700px; /*Før 795px*/
+max-width:1000px;
+opacity: 1;
+background-color:  #ffffff;
+-o-box-shadow: 0 10px 9px rgba(0, 0, 0, 0.5);
+-webkit-box-shadow: 0 10px 9px rgba(0, 0, 0, 0.5);
+-moz-box-shadow: 0 10px 9px rgba(0, 0, 0, 0.5);
+box-shadow: 0 10px 9px rgba(0, 0, 0, 0.5);
+z-index: 1;
+}
+
+#header-container p{
+	font-family:'Calibri Italic', 'Calibri';
+	font-style: italic;
+	font-size: 16px;
+	color: #03406C;
+	text-align: center;
+	padding-top: 16px;
+	padding-bottom:15px;
+}
+
+#logo-container{
+    display: none;
+    margin: 0 auto;
+    /* width: 50%; */
+    /* border-bottom: 2px solid #409042; */
+    z-index: 3;
+}
+
+
+#logo{
+	    display: block;
+    position: fixed;
+    margin: 25px auto;
+    width: 12%;
+    /* height: 40%; */
+    min-width: 124px;
+    float: left;
+    padding-left: 40px;
+
+}
+
+
+#logo2-container{
+    display: block;
+    margin: 0 auto;
+    /* width: 50%; */
+    /* border-bottom: 2px solid #409042; */
+    z-index: 3;
+}
+
+
+#logo2{
+	    display: block;
+    position: fixed;
+    margin: 25px auto;
+    width: 12%;
+    max-width: 120px;
+    /* height: 40%; */
+    min-width: 124px;
+    float: left;
+    padding-left: 2%;
+}
+
+#text-box{
+display: block;
+margin: 6% 55% 0px 5%;
+background: linear-gradient(270deg, #040B0F 0%, #13507c 100%);
+background: -webkit-linear-gradient(270deg, #040B0F 0%, #13507c 100%);
+background: -moz-linear-gradient(270deg, #040B0F 0%, #13507c 100%);
+background: -o-linear-gradient(270deg, #040B0F 0%, #13507c 100%);
+}
+
+#text-box p{
+font-family:'Calibri Regular', 'Calibri';
+font-weight: 400;
+text-transform: uppercase;
+font-size: 18px;
+color: #FFFFFF;
+text-align: center;
+line-height: 25px;
+padding: 26px;
+padding-bottom: 0px;
+}
+
+#second-logo{
+display: block;
+margin: 0 auto;
+width: 80%;
+padding: 35px;
+}
+
+#about-container{
+	display:block;
+	margin:3px auto;
+	background: -webkit-linear-gradient(10deg, #DFE0E0 0%, #FFFFFF 100%);
+	background:-o-linear-gradient(10deg, #DFE0E0 0%, #FFFFFF 100%);
+	background:-moz-linear-gradient(10deg, #DFE0E0 0%, #FFFFFF 100%);
+	background:linear-gradient(10deg, #DFE0E0 0%, #FFFFFF 100%);
+	-webkit-box-shadow: 0 3px 2px #777;
+	-moz-box-shadow: 0 3px 2px #777;
+	box-shadow: 0 3px 2px #777;
+	padding-top:20px;
+	min-height: 390px;
+	width:100%;
+	min-width:700px; /*Før 822px*/
+	max-width:1000px;
+}
+
+
+#navbar-container{
+display: block;
+    position: fixed;
+    /* float: left; */
+    margin: 140px auto;
+    min-height: 280px;
+    /* background-color: white; */
+    width: 19%;
+    min-width: 170px;
+    /* z-index: -1; */
+    max-width: 170px;
+}
+
+.work-tabs{
+	padding-left: 10px;
+}
+
+.work-tabs li{
+	    display: block;
+    margin: 5px auto;
+    vertical-align: top;
+    line-height: 2.3;
+    text-align: center;
+    text-transform: uppercase;
+    list-style: none;
+    border: 3px solid #21b9ed;
+    /*background-color: #ffffff96;*/
+}
+
+
+.work-tabs li a{
+        display: block;
+    font-family: 'myFirstFont','Calibri Regular', 'Calibri';
+    color: #ed1846;
+    text-decoration: none;
+    font-size: 20px;
+        -o-transition:.75s;
+  -ms-transition:.75s;
+  -moz-transition:.75s;
+  -webkit-transition:.75s;
+  transition:.75s;
+}
+
+.work-tabs a:hover{
+    display: block;
+    font-family: 'myFirstFont','Calibri Regular', 'Calibri';
+    color: #ed1846;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #ffeb00;
+}
+
+.nav-options-active{
+    background-color: #ffeb00;
+    /*text-decoration: underline;*/
+}
+
+
+.tab_content{
+	display:block;
+	margin:0px 50px;
+	padding-top:10px;
+	padding-bottom:15px;
+}
+
+.tab_content p{
+	padding-top:10px;
+}
+
+.tab_content a{
+	font-family:'Calibri Bold', 'Calibri';
+	font-weight: 700;
+	font-size: 14px;
+	font-style: normal;
+	color: #03406C;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+h1{
+font-weight: 700;
+    font-size: 100px;
+    color: #00c0f2;
+    font-family: 'mySecondFont', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+h2{
+	font-family:'Calibri Regular', 'Calibri';
+font-size: 14px;
+color: #03406C;
+padding-left:27px;
+line-height:19px;
+text-align: justify;
+}
+
+
+h3{
+font-family:'Calibri Bold', 'Calibri';
+font-size: 20px;
+color: #03406c;
+text-align: center;
+line-height: 40px;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+h4{
+  font-family: 'Calibri Regular', 'Calibri';
+  font-size: 18px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding: 5px;
+  font-weight: 300;
+}
+
+h5{
+	font-family:'Calibri Bold', 'Calibri';
+	font-weight: 700;
+	font-size: 14px;
+	font-style: normal;
+	color: #03406C;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+h6{
+    font-family: 'Calibri Bold', 'Calibri';
+    font-weight: 500;
+    margin-top: -22px;
+    font-size: 24px;
+    font-style: normal;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+
+#info-container {
+display: inline-block;
+margin: 0 auto;
+width: 56%;
+float: left;
+margin-right: 45px;
+}
+
+
+.footer{
+    display: block;
+    bottom: 0;
+    margin: 40px auto 0px;
+    background-color: #ed1846;
+    width: 100%;
+    overflow: visible;
+    z-index:1000;
+}
+
+.FooterContent{
+display: block;
+clear: both;
+padding: 1em 0;
+color: #999;
+text-align: center;
+}
+
+.footer_menu li{
+    display:inline-block;
+    margin: 0 20px;
+}
+
+.footer_menu li a{
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'myFirstFont'
+}
+
+.bottom{
+display: block;
+clear: both;
+padding: 1em 0;
+color: #999;
+}
+
+.bottom p{
+font-family:'Calibri Regular', 'Calibri';
+font-weight: 400;
+font-style: normal;
+font-size:14px;
+color: #FFFFFF;
+text-align: center;
+padding:10px;
+opacity:0.5;
+}
+
+button{
+background-color: #409042;
+border: 1px solid #409042;
+border-radius: 2px;
+display: block;
+margin: 4% auto;
+}
+
+button a{
+	text-decoration:none;
+}
+
+
+}
